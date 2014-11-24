@@ -50,7 +50,7 @@ int pRespawn;                   //time until respawn of player
 boolean alive;                  //whether or not player is alive
 
 //bullets and explosions
-Bullet [] bullets = new Bullet [100];       //bullets bullets
+Bullet [] bullets = new Bullet [100];       //bullets
 Explosion [] nuke = new Explosion [3];      //nuke
 Explosion death = new Explosion (8);        //explosion on player death
 Implosion newLife = new Implosion (8);      //implosion to signal respawning of player
